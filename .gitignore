@@ -1,3 +1,16 @@
 .env
+.env.*
+!.env.example
 /chirpy
 /bin/
+
+# macOS
+.DS_Store
+
+# Go test/coverage output
+*.test
+*.out
+
+# Editors
+.idea/
+.vscode/
